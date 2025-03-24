@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="styles/contactus.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="head-bar">
+                <div class="tabs">
+                    <a href="homepage.php">
+                        <button class="home-button">Home</button>
+                    </a>
+                    <!-- <a href="specialist.php">
+                        <button class="spec-button">Our Specialists</button>
+                    </a> -->
+                    <a href="appointment.php">
+                        <button class="appoin-button">Book an Appointment</button>
+                    </a>
+                    <a href="donation.php">
+                        <button class="dona-button">For Donations</button>
+                    </a>
+                    <a href="allVaccines.php">
+                        <button class="vacc-button">Vaccines</button>
+                    </a>
+                    <a href="centres.php">
+                        <button class="cent-button">Centers</button>
+                    </a>
+                </div>
+ <div class="log-reg">
+                   <?php
+                        // Check if the user is logged in
+                        if (isset($_SESSION['logStat']) || isset($_SESSION['userType']) || $_SESSION['logStat'] === true || $_SESSION['userType'] === 1) {
+                        // User is logged in, display logout button
+                            echo '<a href="logout.php"><button class="log-button">Logout</button></a>';
+                            echo '<a href="userprofile.php"><button class="log-button">Userprofile</button></a>';
+                        } else {
+                        // User is not logged in, display login and registration buttons
+                            echo '<a href="adminLogin.php"><button class="log-button">Admin Login</button></a>';
+                            echo '<a href="login.php"><button class="log-button">Login</button></a>';
+                            echo '<a href="registration.php"><button class="sign-button">Register</button></a>';
+                        }
+                    ?>
+					
+                </div> 				
+            </div>
+        </header>
+
+
+
+<div class="adresses">
+<p><strong>OnVacme Laboratories Address :<br><br></strong></p>
+<p>No. 578,<br>
+main Mawatha,<br>
+malabe,<br>
+Colombo 05,<br>
+Sri Lanka<br><br><br></p>
+
+<p><strong>OnVacme Laboratories Administration Office Address :<br><br></strong></p>
+<p>No. 578,<br>
+main Mawatha,<br>
+malabe,<br>
+Colombo 05,<br>
+Sri Lanka<br><br><br></p>
+<p><strong>Directions to OnVacme Laboratories :<br><br></strong></p>
+<p>OnVacme Laboratories is located between Park Road and udawaththa Mawatha on the Kaduwela Road, which is also known as Gamunupura Mawatha.<br><br><br></p>
+</div>
+
+
+<div class="hotlines">
+<p>
+<strong>Emergency Hotline</strong>	  –  99999 / 012 3456789<br>
+<strong>General Line</strong>	  –  012 3456789<br>
+<strong>Fax	</strong>  –  011 451 1199<br>
+<strong>Email</strong>	  –  info@OnVacmeLAB.com<br>
+</p></div>
+
+
+
+
+
+
+
+ <footer>
+            <div class="foot">
+                <div class="nav-tabs">
+                    <div>
+                        <a href="contactus.php">
+                            <button class="contact-button">Contact us</button>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="termsconditions.php">
+                            <button class="don-button">Terms and Conditions</button>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="aboutus.php">
+                            <button class="aboutus-button">About us</button>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="allVaccines.php">
+                            <button class="vaccines">Vaccines</button>
+                        </a>
+                    </div>
+                    <!-- <div>
+                        <a href="">
+                            <button
+                        </a>
+                    </div> -->
+                </div>
+                <div class="certificate">
+                    <img src="images/certification.png" class="certification">
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header & footer */
+
+.head-bar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: purple;
+    border-radius: 20px;
+}
+.tabs{
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.log-reg{
+   position: absolute;
+   right: 10px;
+}
+.home-button{
+    margin-left: 40px;
+}
+.spec-button, .appoin-button, .dona-button, .vacc-button, .cent-button{
+    margin-left: 40px;
+}
+.cent-button, .spec-button, .appoin-button, .dona-button, .vacc-button, .home-button, .contact-button, .don-button, .aboutus-button, .vaccines{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    transition: 0.5s;
+}
+.cent-button:hover, .spec-button:hover, .appoin-button:hover, .dona-button:hover, .vacc-button:hover, .home-button:hover, .log-button:hover, .sign-button:hover, .contact-button:hover, .don-button:hover, .aboutus-button:hover, .vaccines:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.log-button, .sign-button{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 30px;
+    border-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+.log-button{
+    margin-right: 10px;
+}
+.foot{
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 200px;
+    background-color: purple;
+    border-top-right-radius: 100px;
+}
+.nav-tabs{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+.don-button, .aboutus-button, .vaccines{
+    margin-top: 20px;
+}
+.certification{
+    width: 150px;
+    position: absolute;
+    top: 1px;
+    right: 50px;
+    transition: 0.5s;
+}
+.certificate, .nav-tabs{
+    display: inline-block;
+}
+.certification:hover{
+    transform: scale(1.1);
+}
+
+.adresses{
+	float: left;
+	border-radius: 20px;
+	padding:50px;
+	position:absolute;
+	height:500px;
+	
+}
+.hotlines{
+	
+	margin-left:600px;
+	margin-right:auto;
+	border-radius: 20px;
+	padding:50px;
+	position:relative;
+}
+
+	
+.logo{
+			
+			
+			
+			position:absolute;
+			padding:20px;
+	}
+		
+	.logoimg{
+    width: 200px;
+	float:left;
+    position: absolute;
+    top: 1px;
+    right: 50px;
+	box-shadow: 0 0 20px rgba(0.5, 0.5, 0.5, 0.5);
+	transition: 1s;
+	border-radius: 50%;	
+	}
+
+	
+	
+	.logoimg:hover{
+    transform: scale(1.1);
+	}	

@@ -1,0 +1,211 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head-bar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: purple;
+    border-radius: 20px;
+}
+.tabs{
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.log-reg{
+   position: absolute;
+   right: 10px;
+}
+.home-button{
+    margin-left: 40px;
+}
+.spec-button, .appoin-button, .dona-button, .vacc-button{
+    margin-left: 40px;
+}
+.spec-button, .appoin-button, .dona-button, .vacc-button, .home-button, .contact-button, .don-button, .aboutus-button, .vaccines{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    transition: 0.5s;
+}
+.spec-button:hover, .appoin-button:hover, .dona-button:hover, .vacc-button:hover, .home-button:hover, .log-button:hover, .sign-button:hover, .contact-button:hover, .don-button:hover, .aboutus-button:hover, .vaccines:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.log-button, .sign-button{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 30px;
+    border-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+.log-button{
+    margin-right: 10px;
+}
+.foot{
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 200px;
+    background-color: purple;
+    border-top-right-radius: 100px;
+}
+.nav-tabs{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+.don-button, .aboutus-button, .vaccines{
+    margin-top: 20px;
+}
+.certification{
+    width: 150px;
+    position: absolute;
+    top: 1px;
+    right: 50px;
+    transition: 0.5s;
+}
+.certificate, .nav-tabs{
+    display: inline-block;
+}
+.certification:hover{
+    transform: scale(1.1);
+}
+
+
+.ce1{
+    width: 150px;
+    position: relative;
+    top: 1px;
+    right: 50px;
+    transition: 0.5s;
+}
+
+
+.centers{
+	
+	
+	padding:20px;
+	padding-top:30px;
+	position: relative;
+	width: 1600px;
+	height:800px;
+	font-size: 14px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.centresblock{
+	float:left;
+	padding:20px;
+	padding-top:30px;
+	background-color: #cdc1ff;
+	background-image: linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%);
+	position: relative;
+	width: 300px;
+	height:400px;
+	font-size: 12px;
+	margin:100px;
+	border-radius: 20px;
+	padding: 50px;
+	box-shadow: 0 0 20px 2px rgba(.3, .3, .3, .3);
+}
+
+
+.nav1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+
+
+
+.hospitaltimg{
+    width: 150px;
+	float:left;
+    position: relative;
+    top: 1px;
+    right: 50px;
+	margin-left:75px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 20px 2px rgba(.3, .3, .3, .3);
+	transition: 1s;
+	border-radius: 10px;
+	
+}
+.hospital, .nav1{
+    display: inline-block;
+}
+.hospitaltimg:hover{
+    transform: scale(1.1);
+}
+
+.labname{
+	font-size: 20px;
+	text-align:center;
+	font-family: Georgia, serif;
+	
+}
+
+.seemore {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  box-shadow: 0 0 20px 2px rgba(.5, .5, .5, .5);
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin:30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  
+}
+.button1:hover {
+  background-color: purple;
+  color: white;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  margin-top:48px;
+}
+.button2:hover {
+  background-color: purple;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  margin-top:65px;
+}
+.button3:hover {
+  background-color: purple;
+  color: white;
+}

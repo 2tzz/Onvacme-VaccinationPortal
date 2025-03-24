@@ -1,0 +1,63 @@
+main{
+    height: 150vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../IMAGES/steps.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+}
+
+.m_cont{
+    height: 130vh;
+    display: flex;
+    padding: 10px;
+}
+
+.leftt{
+    height: 100vh;
+    flex-basis: 60%;
+    border: 2px solid black;
+}
+
+.rightt{
+    height: 100vh;
+    flex-basis: 40%;
+    border: 2px solid black;
+  
+}
+
+.step{
+    width: 95%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+   
+}
+
+.stepbox{
+    width: 240px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 15px;
+    background:transparent;
+    border: 2px solid #fff;
+}
+
+.stepbox p{
+    color: #fff;
+}
+
+.stepboxlines{
+    width: 540px;
+    height: 140px;
+    background:transparent;
+    overflow-wrap: break-word;
+    border: 2px solid #fff;
+    color: #fff;
+    
+}

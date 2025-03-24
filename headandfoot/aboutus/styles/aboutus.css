@@ -1,0 +1,241 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head-bar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: purple;
+    border-radius: 20px;
+}
+.tabs{
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.log-reg{
+   position: absolute;
+   right: 10px;
+}
+.home-button{
+    margin-left: 40px;
+}
+.spec-button, .appoin-button, .dona-button, .vacc-button{
+    margin-left: 40px;
+}
+.spec-button, .appoin-button, .dona-button, .vacc-button, .home-button, .contact-button, .don-button, .aboutus-button, .vaccines{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    transition: 0.5s;
+}
+.spec-button:hover, .appoin-button:hover, .dona-button:hover, .vacc-button:hover, .home-button:hover, .log-button:hover, .sign-button:hover, .contact-button:hover, .don-button:hover, .aboutus-button:hover, .vaccines:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.log-button, .sign-button{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 30px;
+    border-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+.log-button{
+    margin-right: 10px;
+}
+.foot{
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 200px;
+    background-color: purple;
+    border-top-right-radius: 100px;
+}
+.nav-tabs{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+.don-button, .aboutus-button, .vaccines{
+    margin-top: 20px;
+}
+.certification{
+    width: 150px;
+    position: absolute;
+    top: 1px;
+    right: 50px;
+    transition: 0.5s;
+}
+.certificate, .nav-tabs{
+    display: inline-block;
+}
+.certification:hover{
+    transform: scale(1.1);
+}
+	.logo{
+			
+			position:relative;
+			float:left;
+			margin-right: 0px;
+			margin-top:100px;
+			margin-left:100px;
+			
+			
+		}
+		
+	.vision{
+	
+			background-color:#E7E9EB;
+			float:left;
+			position:relative;
+			padding:60px;
+			padding-top:25px;
+			height:200px;
+			width:500px;
+			border: 2px solid #04AA6D;
+			border-radius: 15px 50px;
+			margin-top:170px;
+			margin-left:100px;
+			background-image: linear-gradient(to right, rgba(255,100,0,0), rgba(255,100,0,1));
+			
+		}
+		
+	.hdec{
+			
+			font-family:Georgia, serif;	
+			text-align : center;
+			font-size:20px;
+	
+		}
+	
+
+	
+	.aboutus{
+			
+			float:left;
+			margin-top: 130px;
+			position:relative;
+			padding:60px;
+			padding-top:60px;
+			height:650px;
+			width:850px;
+			border: 2px solid #04AA6D;
+			border-radius: 15px;			
+			margin-left:50px;
+			background-image: linear-gradient(to right, rgba(255,100,0,0), rgba(255,100,0,1));
+		}
+		
+	.pdec{
+	
+			font-family:Arial, Helvetica, sans-serif;	
+			text-align :justify ;
+			font-size:15px;}
+			
+	.container {
+			position: relative;
+			width: 100px;
+			margin-left:100px;
+			float: left;
+			margin-top:20px;
+		}
+		
+	.image {
+			opacity: 1;
+			display: block;
+			width: 100%;
+			height: auto;
+			transition: .5s ease;
+			backface-visibility: hidden;
+			
+		}
+
+	.middle {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%)
+		}
+
+	.container:hover .image {
+			opacity: 0.3;
+		}
+
+	.container:hover .middle {
+			opacity: 1;
+		}
+
+	.text {
+			background-color: #4CAF50;
+			color: white;
+			font-size: 16px;
+			padding: 16px 32px;
+		}
+
+	.team{	
+			float:left;
+			margin: 300px;
+			margin-top:100px;
+			position:relative;
+			padding:10px;
+			padding-top:30px;
+			height:600px;
+			width:750px;
+			margin-left:100px;
+			
+		}
+	
+	
+			.personblock{
+			float:left;
+			float :bottom;
+			position:relative;
+			background-color:#D5EEEF;			
+			border-radius: 20px;
+			margin :55px;
+			margin-top:20px;
+			margin-right:30px;
+			position:relative;
+			padding:10px;
+			height:520px;
+			width:150px;
+			
+			
+	
+	}
+	.container2 {
+			position: relative;
+			width: 100px;
+			margin-left:5px;
+			float: left;
+			margin-top:10px;
+		}
+	.container2:hover .image {
+			opacity: 0.3;
+		}
+
+	.container2:hover .middle {
+			opacity: 1;
+		}
+	.persondetails{
+			float: left;
+			position:relative;
+			font-size : 10px;
+		}	
+		

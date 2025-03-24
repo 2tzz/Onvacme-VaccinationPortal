@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/Formstyle.css">
+        <script src="../JAVA SCRIPT/javascript.js"></script>
+    </head>
+    <center>
+    <h1>Regitration Form</h1>
+    </center>
+<div class="sform">
+<form name="theform" method="post" action="../PHP/formphp.php" onsubmit="return checkPassword()" >
+    First Name :                            Last Name : <br>
+    <input type="text" id="fname" name="fname"  placeholder="First Name" required/>
+    <input type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
+
+    NIC :
+    <input type="text" id="NIC" name="NIC" placeholder="Identity card Number(NIC)" required><br>
+
+    Address :<br>
+    <textarea id="Uaddress" name="Uaddress" rows="4" cols="70"></textarea required><br>
+    District :
+    <input type="text" id="District" name="District" placeholder="ex : Gampaha" required><br>
+
+    E-mail:
+    <input type="email" id="email" name="email" placeholder="ex: abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9,._+]+\.[a-z]{2.3}" required><br>
+    
+    Contact Number :
+    <input type="phone" id="contact" name="contact" placeholder="077 XXXXXXX" pattern="[0-9]{10}" required><br><br>
+    
+    Gender :
+    <input type="radio" name="gender" value="Male">Male 
+    <input type="radio" name="gender" value="Female" checked>Female <br><br>
+    Age :
+    <input type="number" name="age" placeholder="ex: 20"><br>
+    
+    Date Of Birth :
+    <input type="date" name="day"><br>
+    
+    Password :
+    <input type="password" id="pwd" name="password" pattern="{!#@$^%[a-z]}{!#@$^%[0-9][a-z]}{!#@$^%[0-9][a-z][A-Z]}"  required>
+    Re-Enter Password :
+    <input type="password" id="cnfrmpwd" name="password" required><br><br>
+    
+    Upload your profile picture :
+    <input type="file" id="img" name="img" accept="image/*"><br><br><br>
+
+    Do you agree to above all information that you provied are true :
+    <input type="checkbox" id="agree" onclick="enableSubmit()"><br><br>
+    <center>
+        <input type="submit" value="Submit" id="btnsubmit"  disabled >
+    </center>
+   
+
+</form>
+</div>
+
+</html>

@@ -1,0 +1,70 @@
+.infobox{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    
+    border-radius: 18px;
+    background-color: gray;
+    width: 280px;
+    height: 300px;
+    border: 2px solid black;
+    padding:5px;
+    margin:30px
+    
+}
+h3{
+    border:none;
+    border-radius: 18px;
+    background-color: darkgray;
+    padding:10px;
+    text-align: center;
+    margin:auto;
+}
+h2{
+    text-align:center;
+}
+p{
+    text-align: center;
+}
+.pimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pimg{
+    border:2px solid white;
+    height: 150px;
+    width:150px;
+    margin:20px;
+}
+
+#learnbtn{
+    margin-top: 30px;
+    border: 2px 4px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#learnbtn:hover{
+    background-color: #00002e;
+    color: #fff;
+}
+
+#registerbtn{
+    border:none;
+    border-radius: 20px;
+    font-size: 50px;
+    padding:20px;
+    margin-top: 80px;
+    background-color: rgb(17, 184, 17);
+    cursor: pointer;
+}
